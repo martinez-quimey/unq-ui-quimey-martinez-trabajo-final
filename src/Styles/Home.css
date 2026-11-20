@@ -1,0 +1,26 @@
+
+.TituloLlamativo {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #ff5722;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.Instrucciones {
+  font-size: 1rem;
+  font-weight: 90;
+  color: #671f09;
+  text-transform: none;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-bottom: 1px;;
+  line-height: 1.4;
+}
+
+.ComenzarButton {
+  margin-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
