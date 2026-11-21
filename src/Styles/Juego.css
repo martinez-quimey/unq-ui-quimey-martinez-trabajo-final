@@ -5,10 +5,16 @@
   flex-direction: column;
   align-items: center;
   padding: 30px 20px;
-  background-color: #f4f4f4;
-  color: #222;
+  color: #F0F7FF;
   font-family: Arial, sans-serif;
   text-align: center;
+}
+
+.juego-container h1,
+.juego-container h2,
+.juego-container p,
+.juego-container strong {
+  color: #F0F7FF;
 }
 
 .temporizador {
@@ -47,7 +53,7 @@
   min-width: 0;
   padding: 12px;
   font-size: 18px;
-  border: 2px solid #ccc;
+  border: 2px solid #252525;
   border-radius: 8px;
 }
 
@@ -58,7 +64,7 @@
   border: none;
   border-radius: 8px;
   background-color: #3478db;
-  color: white;
+  color: #F0F7FF;
   cursor: pointer;
 }
 
@@ -113,4 +119,15 @@
   .juego-formulario button {
     width: 100%;
   }
+}
+
+body {
+  background-image: url("../assets/fondo.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  min-height: 100vh;
+  overflow: hidden;
 }
